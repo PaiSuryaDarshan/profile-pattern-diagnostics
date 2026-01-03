@@ -1,0 +1,109 @@
+flowchart LR
+
+  %% -------------------------
+  %% Inputs
+  %% -------------------------
+  J["Input JSON (Candidate Raw Scores)"]
+  DB["Input SQLite DB (Cohort Raw Scores)"]
+  G["6 skill groups:
+• Communication
+• Cognitive Insights
+• Analytical & Quantitative
+• Problem Structuring
+• Execution & Reliability
+• Collaboration"]
+
+
+  %% -------------------------
+  %% Shared prep
+  %% -------------------------
+  N["Normalise (raw -> norm)"]
+  S["Structure grouped vectors"]
+
+  J --> G --> N
+  DB --> G
+  N --> S
+
+  %% -------------------------
+  %% Candidate pass
+  %% -------------------------
+  subgraph CP["Candidate pass"]
+    direction LR
+    M["Stats (mean, std, min, max, range, n)"]
+    B["Check: Bottleneck"]
+    P["Check: Polarised"]
+    Z["Check: Noisy"]
+    L["Check: Balanced"]
+    UH["Check: Uniform High"]
+    UM["Check: Uniform Moderate"]
+    UL["Check: Uniform Low"]
+    C["Classify profile label"]
+
+    S --> M
+    M --> B --> C
+    M --> P --> C
+    M --> Z --> C
+    M --> L
+    L --> UH --> C
+    L --> UM --> C
+    L --> UL --> C
+  end
+
+  %% -------------------------
+  %% Cohort pass (add inlet to prevent long over-arching line)
+  %% -------------------------
+
+  subgraph CH["Cohort pass"]
+    direction TB
+
+    PREV["Pattern prevalence"]
+    DS["Dimension summary (p10..p90)"]
+    DP["Candidate-dimension percentiles"]
+    GS["Candidate-group scores"]
+    GSUM["Group summary (p10..p90)"]
+    GP["Candidate-group percentiles"]
+    BRD["Dimension breach rates (taus)"]
+    BRG["Group breach rates (taus)"]
+
+    
+    GS --> GSUM
+    GS --> GP
+  end
+
+  %% Feed cohort tables from normalised+structured scores
+  N --> DS
+  N --> DP
+  N --> GS
+  N --> BRD
+  N --> BRG
+
+  %% Route candidate classification into cohort prevalence via inlet node
+  C --> PREV
+
+  %% -------------------------
+  %% Outputs
+  %% -------------------------
+  OUTDB["Enriched SQLite DB"]
+  OUTJSON["JSON reports"]
+  
+  DS --> OUTDB
+  DP --> OUTDB
+  GS --> OUTDB
+  GSUM --> OUTDB
+  GP --> OUTDB
+  BRD --> OUTDB
+  BRG --> OUTDB
+  PREV --> OUTDB
+  
+  OUTDB --> OUTJSON
+
+  %% -------------------------
+  %% Styling (GitHub-safe)
+  %% -------------------------
+  classDef input fill:#111,stroke:#888,color:#fff;
+  classDef stage fill:#1a1a1a,stroke:#666,color:#fff;
+  classDef out fill:#0f172a,stroke:#94a3b8,color:#fff;
+
+  class J,DB input;
+  class N,S,M,B,P,Z,L,UH,UM,UL,C,DS,DP,GS,GSUM,GP,BRD,BRG,PREV stage;
+  class OUTDB,OUTJSON out;

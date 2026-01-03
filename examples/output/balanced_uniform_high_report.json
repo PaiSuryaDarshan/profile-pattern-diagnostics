@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "tool": "Profile Pattern Diagnostics (PPD)",
+    "version": "1.1.2",
+    "axis": "within-candidate",
+    "generated_at_utc": "2026-01-03T16:43:12Z",
+    "scope_note": "Diagnostic + descriptive only. No predictions, rankings, or suitability decisions."
+  },
+  "analysis": {
+    "scores_raw": {
+      "communication_skills::grammar": 4.0,
+      "communication_skills::comprehension": 4.0,
+      "communication_skills::fluency": 4.0,
+      "communication_skills::vocabulary_sufficiency": 4.0,
+      "communication_skills::coherence": 4.0,
+      "cognitive_insights::logical_reasoning": 4.0,
+      "cognitive_insights::critical_thinking": 4.0,
+      "cognitive_insights::problem_solving": 4.0,
+      "cognitive_insights::big_picture_thinking": 4.0,
+      "cognitive_insights::insightfulness": 4.0,
+      "cognitive_insights::decision_making": 4.0,
+      "cognitive_insights::intellectual_self_awareness": 4.0,
+      "cognitive_insights::clarity": 4.0,
+      "analytical_quantitative_skills::numerical_reasoning": 4.0,
+      "analytical_quantitative_skills::data_interpretation": 4.0,
+      "analytical_quantitative_skills::pattern_recognition": 4.0,
+      "analytical_quantitative_skills::estimation_accuracy": 4.0,
+      "analytical_quantitative_skills::quantitative_consistency": 4.0,
+      "analytical_quantitative_skills::error_rate_under_time_pressure": 4.0,
+      "problem_structuring_framework_use::issue_decomposition_quality": 4.0,
+      "problem_structuring_framework_use::prioritisation_accuracy": 4.0,
+      "problem_structuring_framework_use::logical_sequencing": 4.0,
+      "problem_structuring_framework_use::assumption_identification": 4.0,
+      "problem_structuring_framework_use::constraint_recognition": 4.0,
+      "problem_structuring_framework_use::objective_alignment": 4.0,
+      "execution_task_reliability::instruction_adherence": 4.0,
+      "execution_task_reliability::deadline_compliance": 4.0,
+      "execution_task_reliability::output_completeness": 4.0,
+      "execution_task_reliability::error_density": 4.0,
+      "execution_task_reliability::follow_through_consistency": 4.0,
+      "execution_task_reliability::task_closure_reliability": 4.0,
+      "collaboration_professional_interaction::turn_taking_balance": 4.0,
+      "collaboration_professional_interaction::listening_to_speaking_ratio": 4.0,
+      "collaboration_professional_interaction::idea_integration_rate": 4.0,
+      "collaboration_professional_interaction::respectful_disagreement_handling": 4.0,
+      "collaboration_professional_interaction::role_appropriateness": 4.0,
+      "collaboration_professional_interaction::professional_conduct_consistency": 4.0
+    },
+    "scores_norm": {
+      "communication_skills::grammar": 0.8,
+      "communication_skills::comprehension": 0.8,
+      "communication_skills::fluency": 0.8,
+      "communication_skills::vocabulary_sufficiency": 0.8,
+      "communication_skills::coherence": 0.8,
+      "cognitive_insights::logical_reasoning": 0.8,
+      "cognitive_insights::critical_thinking": 0.8,
+      "cognitive_insights::problem_solving": 0.8,
+      "cognitive_insights::big_picture_thinking": 0.8,
+      "cognitive_insights::insightfulness": 0.8,
+      "cognitive_insights::decision_making": 0.8,
+      "cognitive_insights::intellectual_self_awareness": 0.8,
+      "cognitive_insights::clarity": 0.8,
+      "analytical_quantitative_skills::numerical_reasoning": 0.8,
+      "analytical_quantitative_skills::data_interpretation": 0.8,
+      "analytical_quantitative_skills::pattern_recognition": 0.8,
+      "analytical_quantitative_skills::estimation_accuracy": 0.8,
+      "analytical_quantitative_skills::quantitative_consistency": 0.8,
+      "analytical_quantitative_skills::error_rate_under_time_pressure": 0.8,
+      "problem_structuring_framework_use::issue_decomposition_quality": 0.8,
+      "problem_structuring_framework_use::prioritisation_accuracy": 0.8,
+      "problem_structuring_framework_use::logical_sequencing": 0.8,
+      "problem_structuring_framework_use::assumption_identification": 0.8,
+      "problem_structuring_framework_use::constraint_recognition": 0.8,
+      "problem_structuring_framework_use::objective_alignment": 0.8,
+      "execution_task_reliability::instruction_adherence": 0.8,
+      "execution_task_reliability::deadline_compliance": 0.8,
+      "execution_task_reliability::output_completeness": 0.8,
+      "execution_task_reliability::error_density": 0.8,
+      "execution_task_reliability::follow_through_consistency": 0.8,
+      "execution_task_reliability::task_closure_reliability": 0.8,
+      "collaboration_professional_interaction::turn_taking_balance": 0.8,
+      "collaboration_professional_interaction::listening_to_speaking_ratio": 0.8,
+      "collaboration_professional_interaction::idea_integration_rate": 0.8,
+      "collaboration_professional_interaction::respectful_disagreement_handling": 0.8,
+      "collaboration_professional_interaction::role_appropriateness": 0.8,
+      "collaboration_professional_interaction::professional_conduct_consistency": 0.8
+    },
+    "metrics": null,
+    "metrics_by_group": {
+      "communication_skills": {
+        "mean": 0.8,
+        "std_pop": 0.0,
+        "min": 0.8,
+        "min_dimensions": [
+          "communication_skills::grammar",
+          "communication_skills::comprehension",
+          "communication_skills::fluency",
+          "communication_skills::vocabulary_sufficiency",
+          "communication_skills::coherence"
+        ],
+        "max": 0.8,
+        "max_dimensions": [
+          "communication_skills::grammar",
+          "communication_skills::comprehension",
+          "communication_skills::fluency",
+          "communication_skills::vocabulary_sufficiency",
+          "communication_skills::coherence"
+        ],
+        "range": 0.0,
+        "n_dimensions": 5
+      },
+      "cognitive_insights": {
+        "mean": 0.8,
+        "std_pop": 0.0,
+        "min": 0.8,
+        "min_dimensions": [
+          "cognitive_insights::logical_reasoning",
+          "cognitive_insights::critical_thinking",
+          "cognitive_insights::problem_solving",
+          "cognitive_insights::big_picture_thinking",
+          "cognitive_insights::insightfulness",
+          "cognitive_insights::decision_making",
+          "cognitive_insights::intellectual_self_awareness",
+          "cognitive_insights::clarity"
+        ],
+        "max": 0.8,
+        "max_dimensions": [
+          "cognitive_insights::logical_reasoning",
+          "cognitive_insights::critical_thinking",
+          "cognitive_insights::problem_solving",
+          "cognitive_insights::big_picture_thinking",
+          "cognitive_insights::insightfulness",
+          "cognitive_insights::decision_making",
+          "cognitive_insights::intellectual_self_awareness",
+          "cognitive_insights::clarity"
+        ],
+        "range": 0.0,
+        "n_dimensions": 8
+      },
+      "analytical_quantitative_skills": {
+        "mean": 0.8,
+        "std_pop": 0.0,
+        "min": 0.8,
+        "min_dimensions": [
+          "analytical_quantitative_skills::numerical_reasoning",
+          "analytical_quantitative_skills::data_interpretation",
+          "analytical_quantitative_skills::pattern_recognition",
+          "analytical_quantitative_skills::estimation_accuracy",
+          "analytical_quantitative_skills::quantitative_consistency",
+          "analytical_quantitative_skills::error_rate_under_time_pressure"
+        ],
+        "max": 0.8,
+        "max_dimensions": [
+          "analytical_quantitative_skills::numerical_reasoning",
+          "analytical_quantitative_skills::data_interpretation",
+          "analytical_quantitative_skills::pattern_recognition",
+          "analytical_quantitative_skills::estimation_accuracy",
+          "analytical_quantitative_skills::quantitative_consistency",
+          "analytical_quantitative_skills::error_rate_under_time_pressure"
+        ],
+        "range": 0.0,
+        "n_dimensions": 6
+      },
+      "problem_structuring_framework_use": {
+        "mean": 0.8,
+        "std_pop": 0.0,
+        "min": 0.8,
+        "min_dimensions": [
+          "problem_structuring_framework_use::issue_decomposition_quality",
+          "problem_structuring_framework_use::prioritisation_accuracy",
+          "problem_structuring_framework_use::logical_sequencing",
+          "problem_structuring_framework_use::assumption_identification",
+          "problem_structuring_framework_use::constraint_recognition",
+          "problem_structuring_framework_use::objective_alignment"
+        ],
+        "max": 0.8,
+        "max_dimensions": [
+          "problem_structuring_framework_use::issue_decomposition_quality",
+          "problem_structuring_framework_use::prioritisation_accuracy",
+          "problem_structuring_framework_use::logical_sequencing",
+          "problem_structuring_framework_use::assumption_identification",
+          "problem_structuring_framework_use::constraint_recognition",
+          "problem_structuring_framework_use::objective_alignment"
+        ],
+        "range": 0.0,
+        "n_dimensions": 6
+      },
+      "execution_task_reliability": {
+        "mean": 0.8,
+        "std_pop": 0.0,
+        "min": 0.8,
+        "min_dimensions": [
+          "execution_task_reliability::instruction_adherence",
+          "execution_task_reliability::deadline_compliance",
+          "execution_task_reliability::output_completeness",
+          "execution_task_reliability::error_density",
+          "execution_task_reliability::follow_through_consistency",
+          "execution_task_reliability::task_closure_reliability"
+        ],
+        "max": 0.8,
+        "max_dimensions": [
+          "execution_task_reliability::instruction_adherence",
+          "execution_task_reliability::deadline_compliance",
+          "execution_task_reliability::output_completeness",
+          "execution_task_reliability::error_density",
+          "execution_task_reliability::follow_through_consistency",
+          "execution_task_reliability::task_closure_reliability"
+        ],
+        "range": 0.0,
+        "n_dimensions": 6
+      },
+      "collaboration_professional_interaction": {
+        "mean": 0.8,
+        "std_pop": 0.0,
+        "min": 0.8,
+        "min_dimensions": [
+          "collaboration_professional_interaction::turn_taking_balance",
+          "collaboration_professional_interaction::listening_to_speaking_ratio",
+          "collaboration_professional_interaction::idea_integration_rate",
+          "collaboration_professional_interaction::respectful_disagreement_handling",
+          "collaboration_professional_interaction::role_appropriateness",
+          "collaboration_professional_interaction::professional_conduct_consistency"
+        ],
+        "max": 0.8,
+        "max_dimensions": [
+          "collaboration_professional_interaction::turn_taking_balance",
+          "collaboration_professional_interaction::listening_to_speaking_ratio",
+          "collaboration_professional_interaction::idea_integration_rate",
+          "collaboration_professional_interaction::respectful_disagreement_handling",
+          "collaboration_professional_interaction::role_appropriateness",
+          "collaboration_professional_interaction::professional_conduct_consistency"
+        ],
+        "range": 0.0,
+        "n_dimensions": 6
+      }
+    },
+    "adjacency_D": null,
+    "adjacency_order": null,
+    "patterns_by_group": {
+      "communication_skills": {
+        "balanced": true,
+        "bottlenecked": false,
+        "polarised": false,
+        "noisy": false,
+        "uniform_low": false,
+        "uniform_high": true,
+        "bottleneck_dimension": null,
+        "bottleneck_dimensions": null,
+        "bottleneck_value": null,
+        "polarised_dimensions_high": null,
+        "polarised_dimensions_low": null
+      },
+      "cognitive_insights": {
+        "balanced": true,
+        "bottlenecked": false,
+        "polarised": false,
+        "noisy": false,
+        "uniform_low": false,
+        "uniform_high": true,
+        "bottleneck_dimension": null,
+        "bottleneck_dimensions": null,
+        "bottleneck_value": null,
+        "polarised_dimensions_high": null,
+        "polarised_dimensions_low": null
+      },
+      "analytical_quantitative_skills": {
+        "balanced": true,
+        "bottlenecked": false,
+        "polarised": false,
+        "noisy": false,
+        "uniform_low": false,
+        "uniform_high": true,
+        "bottleneck_dimension": null,
+        "bottleneck_dimensions": null,
+        "bottleneck_value": null,
+        "polarised_dimensions_high": null,
+        "polarised_dimensions_low": null
+      },
+      "problem_structuring_framework_use": {
+        "balanced": true,
+        "bottlenecked": false,
+        "polarised": false,
+        "noisy": false,
+        "uniform_low": false,
+        "uniform_high": true,
+        "bottleneck_dimension": null,
+        "bottleneck_dimensions": null,
+        "bottleneck_value": null,
+        "polarised_dimensions_high": null,
+        "polarised_dimensions_low": null
+      },
+      "execution_task_reliability": {
+        "balanced": true,
+        "bottlenecked": false,
+        "polarised": false,
+        "noisy": false,
+        "uniform_low": false,
+        "uniform_high": true,
+        "bottleneck_dimension": null,
+        "bottleneck_dimensions": null,
+        "bottleneck_value": null,
+        "polarised_dimensions_high": null,
+        "polarised_dimensions_low": null
+      },
+      "collaboration_professional_interaction": {
+        "balanced": true,
+        "bottlenecked": false,
+        "polarised": false,
+        "noisy": false,
+        "uniform_low": false,
+        "uniform_high": true,
+        "bottleneck_dimension": null,
+        "bottleneck_dimensions": null,
+        "bottleneck_value": null,
+        "polarised_dimensions_high": null,
+        "polarised_dimensions_low": null
+      }
+    },
+    "patterns": null
+  },
+  "candidate": {
+    "id": "c1",
+    "email": "c01@example.com",
+    "phone_number": "+441111111111",
+    "linkedin_tag": "c01-linkedin"
+  }
+}

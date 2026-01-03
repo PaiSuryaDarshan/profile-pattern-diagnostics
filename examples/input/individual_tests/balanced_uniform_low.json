@@ -1,0 +1,11 @@
+{
+  "candidate": { "id": 2, "email": "c02@example.com", "phone_number": "+441111111112", "linkedin_tag": "c02-linkedin" },
+  "scores": {
+    "communication_skills": { "grammar": 1, "comprehension": 1, "fluency": 1, "vocabulary_sufficiency": 1, "coherence": 1 },
+    "cognitive_insights": { "logical_reasoning": 1, "critical_thinking": 1, "problem_solving": 1, "big_picture_thinking": 1, "insightfulness": 1, "decision_making": 1, "intellectual_self_awareness": 1, "clarity": 1 },
+    "analytical_quantitative_skills": { "numerical_reasoning": 1, "data_interpretation": 1, "pattern_recognition": 1, "estimation_accuracy": 1, "quantitative_consistency": 1, "error_rate_under_time_pressure": 1 },
+    "problem_structuring_framework_use": { "issue_decomposition_quality": 1, "prioritisation_accuracy": 1, "logical_sequencing": 1, "assumption_identification": 1, "constraint_recognition": 1, "objective_alignment": 1 },
+    "execution_task_reliability": { "instruction_adherence": 1, "deadline_compliance": 1, "output_completeness": 1, "error_density": 1, "follow_through_consistency": 1, "task_closure_reliability": 1 },
+    "collaboration_professional_interaction": { "turn_taking_balance": 1, "listening_to_speaking_ratio": 1, "idea_integration_rate": 1, "respectful_disagreement_handling": 1, "role_appropriateness": 1, "professional_conduct_consistency": 1 }
+  }
+}

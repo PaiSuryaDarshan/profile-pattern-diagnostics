@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "profile-pattern-diagnostics"
+version = "1.1.2"
+description = "Profile Pattern Diagnostics (PPD) – diagnostic analysis of rubric-based profiles"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+]
+
+[project.scripts]
+ppd = "ppd.__main__:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
