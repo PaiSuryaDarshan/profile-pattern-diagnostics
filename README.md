@@ -4,6 +4,12 @@ Profile Pattern Diagnostics (PPD) is a diagnostic framework for analysing the in
 
 PPD treats skill assessments as structured vectors rather than scores to be optimised. The system focuses on interpretability, assessor stability, and internal coherence, making it suitable for analytical inspection of profiles at both individual (candidate) and aggregate (cohort) levels.
 
+## Availability
+
+The source code for this project is publicly accessible with permission from the owning organisation, subject to scope and usage constraints.
+
+This repository documents the problem framing, methodological design, and analytical structure of the Profile Pattern Diagnostics (PPD) system, which was developed by me and delivered as part of a commercial engagement within an HR and consulting organisation I was affiliated with in 2021.
+
 ## Purpose and motivation
 
 Most skill evaluation systems collapse rich, multi-axis assessments into single scores, rankings, or opaque model outputs. This obscures structural information such as uneven development, bottlenecks, or polarised strengths.
@@ -412,9 +418,3 @@ profile-pattern-diagnostics/
 └── .gitignore
 
 ```
-
-## Availability
-
-The source code for this project is publicly accessible with permission from the owning organisation, subject to scope and usage constraints.
-
-This repository documents the problem framing, methodological design, and analytical structure of the Profile Pattern Diagnostics (PPD) system, which was developed by me and delivered as part of a commercial engagement within an HR and consulting organisation I was affiliated with in 2021.
