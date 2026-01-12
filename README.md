@@ -16,7 +16,7 @@ Most skill evaluation systems collapse rich, multi-axis assessments into single 
 
 PPD exists to preserve that structure.
 
-The framework provides a formal, transparent way to:
+The framework provides a forma and transparent way to:
 
 - describe the shape of a skill profile,
 - detect internal imbalances and constraints,
